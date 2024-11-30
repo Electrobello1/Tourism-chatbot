@@ -1,4 +1,4 @@
-# Chatbot with a Lovely Tkinter GUI
+#  A Tourism Chatbot 
 
 ## Project Description
 This is a chatbot application built using Python's `tkinter` library for the GUI and a PyTorch-based machine learning model for natural language processing. The chatbot has a clean, user-friendly interface and is capable of responding to user inputs based on trained intents and responses.
