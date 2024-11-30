@@ -1,0 +1,142 @@
+{
+  "intents": [
+    {
+      "id": 1,
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "HI",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "id": 2,
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "id": 3,
+      "tag": "name",
+      "patterns": ["What is your name", "what are you called", "who are you"],
+      "responses": ["my name is john","i am john","john"]
+
+
+    },
+    {
+      "id": 4,
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "id": 5,
+      "tag": "book flight",
+      "patterns": [
+        "i want to book a flight",
+        "i need a flight",
+        "i want to arder a flight",
+        "please book me a flight",
+
+        "order"
+      ],
+      "responses": [
+        "where is your destination",
+        "Where do you intend to go",
+        "where are you headed to",
+        "where are you going"
+      ]
+    },
+    {
+      "id": 6,
+      "tag": "destination",
+      "patterns": [
+        "i am going to paris",
+        "my destination is ?",
+        "i intend to to go",
+        "london"
+      ],
+      "responses": [
+        "Alright,your flight date is on the 22/03/2023 "
+
+      ]
+    },
+    {
+      "id": 7,
+      "tag": "change flight",
+      "patterns": [
+        "i want to change flight",
+        "i am not interested in flying ",
+        "i want another flight"
+      ],
+      "responses": [
+        "do you want to change the date/destination"
+
+      ]
+    },
+    {
+      "id": 8,
+      "tag": "change date",
+      "patterns": [
+        "i want to change date"
+
+      ],
+      "responses": [
+        "your new date is 1/04/2023"
+
+      ]
+    },
+        {
+          "id": 9,
+          "tag": "change destination",
+          "patterns": [
+            "i want a change in destination",
+            "i want to change destination"
+
+          ],
+          "responses": [
+            "what destination do you want",
+            "enter new destination "
+          ]
+        },
+          {
+            "id": 10,
+         "tag": "cancel flight",
+         "patterns": [
+          "i want to cancel flight"
+      ],
+      "responses": [
+        "alright no problem"
+
+      ]
+    },
+    {
+      "id": 11,
+      "tag": "vacation",
+      "patterns": [
+        "i need vacation packages",
+        "i need tourism packages",
+        "i need to go on a vacation",
+         "i need to travel ",
+        "i need a vacation",
+        "vacation"
+      ],
+      "responses": [
+        "alright we have a list of some places"
+      ]
+    }
+  ]
+}
